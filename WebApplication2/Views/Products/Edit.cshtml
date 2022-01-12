@@ -13,21 +13,20 @@
 		<form asp-action="Edit">
 			<div asp-validation-summary="ModelOnly" class="text-danger"></div>
 			<div class="form-group">
-				<label asp-for="Name"></label>
+				<label asp-for="Name">Enter the Name:</label>
 				<input asp-for="Name" class="form-control"/>
 				<span asp-validation-for="Name" class="text-danger"></span>
 			</div>
 			<div class="form-group">
-				<label asp-for="SerialNumber"></label>
+				<label asp-for="SerialNumber">Enter the Serial number (4 digits):</label>
 				<input asp-for="SerialNumber" class="form-control"/>
 				<span asp-validation-for="SerialNumber" class="text-danger"></span>
 			</div>
 			<div class="form-group">
-				<label asp-for="AssemblyStatus" class="control-label"></label>
+				<label asp-for="AssemblyStatus" class="control-label">Select Assembly Status:</label>
 				<div class="col-md-10">
-					@* <select asp-for="AssemblyStatus" asp-items="Html.DropDownListFor(m => m.)"></select> *@
 					<select asp-for="AssemblyStatus" asp-items="Html.GetEnumSelectList<AssemblyStatus>()">
-						<option selected="selected" value="">Select the status</option>
+						<option selected="selected" value="@Model.AssemblyStatus">@Model.AssemblyStatus</option>
 					</select>
 					<span asp-validation-for="AssemblyStatus" class="text-danger"></span>
 				</div>

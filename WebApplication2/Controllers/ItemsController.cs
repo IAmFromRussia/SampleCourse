@@ -3,6 +3,7 @@ using Final.Controllers;
 using Final.Models.Dto;
 using Final.Models.ItemViewModels;
 using Final.Models.ViewModels.ItemViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebApplication2.Models.Entities;
 using WebApplication2.Models.Services;
@@ -81,8 +82,8 @@ public class ItemsController : Controller
 	}
 	
 	[HttpPost]
-	// [Authorize(Roles = "Admin")]
-	// [ValidateAntiForgeryToken]
+	[Authorize(Roles = Roles.Admin + "," + Roles.AcceptanceEngineer + "," + Roles.AccountantEngineer)]
+	[ValidateAntiForgeryToken]
 	public async Task<IActionResult> Create(CreateItemViewModel inputModel)
 	{
 		if (!ModelState.IsValid) return View(inputModel);
@@ -94,8 +95,8 @@ public class ItemsController : Controller
 			
 
 	[HttpPost]
-	// [Authorize(Roles = "Admin")]
-	// [ValidateAntiForgeryToken]
+	[Authorize(Roles = Roles.Admin + "," + Roles.AcceptanceEngineer + "," + Roles.AccountantEngineer)]
+	[ValidateAntiForgeryToken]
 	public async Task<IActionResult> Edit(int id, EditItemViewModel editViewModel)
 	{
 		if (!ModelState.IsValid) return View(editViewModel);
@@ -108,8 +109,8 @@ public class ItemsController : Controller
 	}
 
 	[HttpPost, ActionName("Delete")]
-	// [Authorize(Roles = "Admin")]
-	// [ValidateAntiForgeryToken]
+	[Authorize(Roles = "Admin")]
+	[ValidateAntiForgeryToken]
 	public async Task<IActionResult> DeleteConfirmed(int id)
 	{
 		var item = await _service.DeleteAsync((int) id);

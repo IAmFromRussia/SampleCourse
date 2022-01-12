@@ -8,9 +8,10 @@
  
 <p>
 	<a asp-action="Create">Create new</a>
+	@* <input type="button" value="Create New" class="btn btn-primary" asp-action="Create"/> *@
 </p>
 <table class="table">
-	<thead>
+	<thead class="table-dark">
 	<tr>
 		<th>
 			<label asp-for="@Model.First().Name"></label>

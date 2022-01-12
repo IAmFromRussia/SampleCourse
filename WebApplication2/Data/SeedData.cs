@@ -105,10 +105,10 @@ public static class SeedData
 
 			var roles = new List<string>
 			{
-				"Admin",
-				"Worker",
-				"AcceptanceEngineer",
-				"AccountantEngineer"
+				Roles.Admin,
+				Roles.Worker,
+				Roles.AcceptanceEngineer,
+				Roles.AccountantEngineer
 			};
 
 			foreach (var role in roles)

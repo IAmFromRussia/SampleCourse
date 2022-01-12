@@ -12,22 +12,6 @@ public enum ServiceRoles
 	AccountantEngineer
 }
 
-// public static class ServiceRoles
-// {
-// 	public const string Admin = "Admin";
-// 	public const string Worker = "Worker";
-// 	public const string AcceptanceEngineer = "AcceptanceEngineer";
-// 	public const string AccountantEngineer = "AccountantEngineer";
-//
-// 	public static List<string> Roles { get; set; } = new()
-// 	{
-// 		"Admin",
-// 		"Worker",
-// 		"AcceptanceEngineer",
-// 		"AccountantEngineer"
-// 	};
-// }
-
 public class User : IdentityUser<int>, IWithId
 {
 	public string FirstName { get; set; }

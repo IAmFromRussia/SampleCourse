@@ -13,34 +13,34 @@
 		<form asp-action="Edit">
 			<div asp-validation-summary="ModelOnly" class="text-danger"></div>
 			<div class="form-group">
-				<label asp-for="Name"></label>
+				<label asp-for="Name">Enter the name:</label>
 				<input asp-for="Name" class="form-control"/>
 				<span asp-validation-for="Name" class="text-danger"></span>
 			</div>
 			<div class="form-group">
-				<label asp-for="Material"></label>
+				<label asp-for="Material">Enter the material:</label>
 				<input asp-for="Material" class="form-control"/>
 				<span asp-validation-for="Material" class="text-danger"></span>
 			</div>
 			<div class="form-group">
-				<label asp-for="Uin" class="control-label"></label>
+				<label asp-for="Uin" class="control-label">Enter the detail UIN (5 digits):</label>
 				<input asp-for="Uin" class="form-control"/>
 				<span asp-validation-for="Uin" class="text-danger"></span>
 			</div>
 			<div class="form-group">
-				<label asp-for="InstallStatus" class="control-label"></label>
+				<label asp-for="InstallStatus" class="control-label">Select Install Status:</label>
 				<div class="col-md-10">
-					<select asp-for="InstallStatus" asp-items="Html.GetEnumSelectList<InstallStatus>()">
-						<option selected="selected" value="">Select the status</option>
+					<select class="form-control" asp-for="InstallStatus" asp-items="Html.GetEnumSelectList<InstallStatus>()">
+						<option selected="selected" value="@Model.InstallStatus">@Model.InstallStatus</option>
 					</select>
 					<span asp-validation-for="InstallStatus" class="text-danger"></span>
 				</div>
 			</div>
 			<div class="form-group">
-				<label asp-for="WarehouseStatus" class="control-label"></label>
+				<label asp-for="WarehouseStatus" class="control-label">Select Warehouse Status</label>
 				<div class="col-md-10">
 					<select asp-for="WarehouseStatus" asp-items="Html.GetEnumSelectList<WarehouseStatus>()">
-						<option selected="selected" value="">Select the status</option>
+						<option selected="selected" value="@Model.WarehouseStatus">@Model.WarehouseStatus</option>
 					</select>
 					<span asp-validation-for="WarehouseStatus" class="text-danger"></span>
 				</div>

@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0177f0eb-6f8b-404d-b537-dad2b1bdc7f9" name="Changes" comment="" />
+    <list default="true" id="0177f0eb-6f8b-404d-b537-dad2b1bdc7f9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/WebApplication2/Controllers/ItemProductsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/Models/Dto/DtoProfiles/ItemProductDtoProfile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/Models/Dto/ItemProductDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/Models/Entities/Roles.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/Models/ViewModels/ItemProductViewModel/CreateItemProductViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/Models/ViewModels/ItemProductViewModel/DeleteItemProductViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/Models/ViewModels/ItemProductViewModel/EditItemProductViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/Models/ViewModels/ItemProductViewModel/ItemProductViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/Models/ViewModels/Profiles/ItemProductViewModelProfile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/Views/ItemProducts/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/Views/ItemProducts/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/Views/ItemProducts/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/Views/ItemProducts/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/WebApplication2.csproj.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication2.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication2.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Controllers/ItemsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Controllers/ItemsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Controllers/ProductsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Data/SeedData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Data/SeedData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Models/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Models/Entities/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Views/Items/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Views/Items/Edit.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Views/Items/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Views/Items/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Views/Products/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Views/Products/Edit.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Views/Products/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Views/Products/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Views/Shared/_LoginPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Views/Shared/_LoginPartial.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Views/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,8 +46,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/WebApplication2/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApplication2/Controllers/AccountController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication2/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication2/Controllers/AccountController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication2/Controllers/ItemsController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -47,6 +77,8 @@
       <option name="presentableId" value="Default" />
       <updated>1641375874822</updated>
       <workItem from="1641375880288" duration="150000" />
+      <workItem from="1642008914807" duration="192000" />
+      <workItem from="1642009128899" duration="151000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1641375911517</created>

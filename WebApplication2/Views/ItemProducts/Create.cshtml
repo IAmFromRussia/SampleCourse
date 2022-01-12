@@ -1,0 +1,36 @@
+﻿@model Final.Models.ItemProductViewModel.CreateItemProductViewModel
+
+@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Add item</title>
+</head>
+<body>
+<div class="row">
+	<div class="col-md-4">
+		<form asp-action="Create">
+			<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+			<div class="form-group">
+				<label asp-for="Product.Name" class="control-label"></label>
+			</div>
+			@* <div class="form-group"> *@
+			@* 	<label class="control-label">Select Item:</label> *@
+			@* 	<div class="col-md-4"> *@
+			@* 		<select asp-items="Model.Product.ItemProducts"> *@
+			@* 			<option value="">Add Item</option> *@
+			@* 		</select> *@
+			@* 	</div> *@
+			@* </div> *@
+			<div class="form-group">
+				<input type="submit" value="Create" class="btn btn-primary"/>
+			</div>
+		</form>
+	</div>
+</div>
+</body>
+</html>

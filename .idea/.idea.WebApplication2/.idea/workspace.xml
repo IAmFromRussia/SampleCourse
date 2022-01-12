@@ -5,7 +5,37 @@
     <projectFile profileName="IIS Express">WebApplication2/WebApplication2.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0897562e-23b2-410d-97e1-af60e0d1938d" name="Changes" comment="" />
+    <list default="true" id="0897562e-23b2-410d-97e1-af60e0d1938d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/WebApplication2/Controllers/ItemProductsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/Models/Dto/DtoProfiles/ItemProductDtoProfile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/Models/Dto/ItemProductDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/Models/Entities/Roles.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/Models/ViewModels/ItemProductViewModel/CreateItemProductViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/Models/ViewModels/ItemProductViewModel/DeleteItemProductViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/Models/ViewModels/ItemProductViewModel/EditItemProductViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/Models/ViewModels/ItemProductViewModel/ItemProductViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/Models/ViewModels/Profiles/ItemProductViewModelProfile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/Views/ItemProducts/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/Views/ItemProducts/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/Views/ItemProducts/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/Views/ItemProducts/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/WebApplication2.csproj.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication2.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication2.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Controllers/ItemsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Controllers/ItemsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Controllers/ProductsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Data/SeedData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Data/SeedData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Models/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Models/Entities/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Views/Items/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Views/Items/Edit.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Views/Items/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Views/Items/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Views/Products/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Views/Products/Edit.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Views/Products/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Views/Products/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Views/Shared/_LoginPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Views/Shared/_LoginPartial.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Views/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +54,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fdbc5a9885074af8ba4654dcd8c536cf1fff88/60/3a9e0a91/DbSet`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5b6676905824469f9fbaf9b2daa2f97d15070/94/f34ff3b5/AuthorizeAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/79021/RiderProjects/WebApplication2/WebApplication2/Controllers/ProductsController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/79021/RiderProjects/WebApplication2/WebApplication2/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fdbc5a9885074af8ba4654dcd8c536cf1fff88/27/b60ee88d/InternalDbSet`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6a6abec5fa9d49bfa69dd4098f91f1903a870/53/7d1d6db5/RazorPageBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/658ceecd75649133518881b53c681328b0c1145756945b12361f27b09de3d746/SelectTagHelper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2e5a78beee0f4abd8ed7ef3636048cf1a20268/19/54e1076d/ExceptionDispatchInfo.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -103,6 +138,15 @@
       <workItem from="1641283817586" duration="4923000" />
       <workItem from="1641333526081" duration="5282000" />
       <workItem from="1641371264142" duration="3343000" />
+      <workItem from="1641376061922" duration="1426000" />
+      <workItem from="1641388630090" duration="8060000" />
+      <workItem from="1641637324107" duration="361000" />
+      <workItem from="1641637990820" duration="1031000" />
+      <workItem from="1641657196721" duration="595000" />
+      <workItem from="1641745692571" duration="7806000" />
+      <workItem from="1641930759836" duration="1209000" />
+      <workItem from="1642009318702" duration="594000" />
+      <workItem from="1642011542973" duration="1557000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1640455862484</created>
@@ -125,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641337902975</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="deleted file">
+      <created>1641376099335</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1641376099335</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +199,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="Added Generic repository" />
     <MESSAGE value="Added generic service for list pages. Deleted excess entities and services" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added generic service for list pages. Deleted excess entities and services" />
+    <MESSAGE value="deleted file" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -159,19 +211,6 @@
           </properties>
           <option name="timeStamp" value="12" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/WebApplication2/Controllers/ItemsController.cs</url>
-          <line>26</line>
-          <properties documentPath="C:\Users\79021\RiderProjects\WebApplication2\WebApplication2\Controllers\ItemsController.cs" initialLine="26" containingFunctionPresentation="method 'Index'">
-            <startOffsets>
-              <option value="710" />
-            </startOffsets>
-            <endOffsets>
-              <option value="711" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

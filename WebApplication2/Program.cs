@@ -70,6 +70,7 @@ app.UseAuthorization();
 app.MapControllerRoute(
 	name: "default",
 	pattern: "{controller=Items}/{action=Index}/{id?}");
+	// pattern: "{controller=Account}/{action=Login}/{id?}");
 app.MapRazorPages();
 
 app.Run();

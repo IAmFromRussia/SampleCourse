@@ -1,0 +1,50 @@
+﻿@using System.Linq
+@model System.Collections.Generic.IEnumerable<WebApplication2.Models.ViewModels.ItemProductViewModel.ItemProductViewModel>
+
+@{
+	ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>title</title>
+</head>
+<body>
+<div>
+	<h1>Items and Products</h1>
+	
+	<table class="table">
+		<thead class="table-dark">
+		<tr>
+			<th>
+				<label asp-for="@Model.First().Id"></label>
+			</th>
+			<th>
+				<label asp-for="@Model.First().Product.Name"></label>
+			</th>
+			<th>
+				<label asp-for="@Model.First().Product.ItemProducts"></label>
+			</th>
+		</tr>
+		</thead>
+		<tbody>
+		@foreach (var itemProduct in Model)
+		{
+			<tr>
+				<td>@itemProduct.Id</td>
+				<td>@itemProduct.Product.Name</td>
+				<td>
+					@foreach (var item in @itemProduct.Product.ItemProducts)
+					{
+						@item.Item.ItemProducts
+					}
+				</td>
+			</tr>
+		}
+		</tbody>
+	</table>
+</div>
+</body>
+</html>
