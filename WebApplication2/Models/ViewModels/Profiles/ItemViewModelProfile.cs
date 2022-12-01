@@ -1,9 +1,8 @@
 ﻿using AutoMapper;
-using Final.Models.Dto;
-using Final.Models.ItemViewModels;
-using Final.Models.ViewModels.ItemViewModels;
+using WebApplication2.Models.Dto;
+using WebApplication2.Models.ViewModels.ItemViewModels;
 
-namespace WebApplication2.Models.ViewModels.ViewModelsProfiles;
+namespace WebApplication2.Models.ViewModels.Profiles;
 
 public class ItemViewModelProfile : Profile
 {

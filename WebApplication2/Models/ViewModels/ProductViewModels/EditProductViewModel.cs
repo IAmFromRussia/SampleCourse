@@ -1,6 +1,4 @@
-﻿using Final.Models.ViewModels.ItemViewModels;
-
-namespace Final.Models.ViewModels.ProductViewModels;
+﻿namespace WebApplication2.Models.ViewModels.ProductViewModels;
 
 public class EditProductViewModel : CreateProductViewModel
 {

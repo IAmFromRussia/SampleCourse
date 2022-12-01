@@ -1,4 +1,4 @@
-﻿namespace Final.Models.ViewModels.ItemViewModels;
+﻿namespace WebApplication2.Models.ViewModels.ItemViewModels;
 
 public class ItemViewModel : CreateItemViewModel
 {

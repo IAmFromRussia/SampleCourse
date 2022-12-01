@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using Final.Models.Dto;
-using Final.Models.ViewModels.ProductViewModels;
+using WebApplication2.Models.Dto;
+using WebApplication2.Models.ViewModels.ProductViewModels;
 
 namespace WebApplication2.Models.ViewModels.Profiles;
 

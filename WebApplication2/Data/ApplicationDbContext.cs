@@ -1,9 +1,8 @@
-﻿using Final.Models;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using WebApplication2.Models.Entities;
 
-namespace Final.Data;
+namespace WebApplication2.Data;
 
 public class ApplicationDbContext : IdentityDbContext<User, Role, int>
 {

@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using Final.Data;
 using Microsoft.EntityFrameworkCore;
+using WebApplication2.Data;
 
 namespace WebApplication2.Models.Services;
 

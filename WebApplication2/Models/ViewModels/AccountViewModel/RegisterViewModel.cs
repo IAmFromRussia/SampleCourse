@@ -5,6 +5,12 @@ namespace WebApplication2.Models.ViewModels.AccountViewModel
     public class RegisterViewModel
     {
         [Required]
+        public string LastName { get; set; }
+        
+        [Required]
+        public string FirstName { get; set; }
+        
+        [Required]
         [EmailAddress]
         [Display(Name = "Email")]
         public string Email { get; set; }

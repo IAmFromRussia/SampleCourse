@@ -2,35 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0177f0eb-6f8b-404d-b537-dad2b1bdc7f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/WebApplication2/Controllers/ItemProductsController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication2/Models/Dto/DtoProfiles/ItemProductDtoProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication2/Models/Dto/ItemProductDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication2/Models/Entities/Roles.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication2/Models/ViewModels/ItemProductViewModel/CreateItemProductViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication2/Models/ViewModels/ItemProductViewModel/DeleteItemProductViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication2/Models/ViewModels/ItemProductViewModel/EditItemProductViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication2/Models/ViewModels/ItemProductViewModel/ItemProductViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication2/Models/ViewModels/Profiles/ItemProductViewModelProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication2/Views/ItemProducts/Create.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication2/Views/ItemProducts/Delete.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication2/Views/ItemProducts/Edit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication2/Views/ItemProducts/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication2/WebApplication2.csproj.DotSettings.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/WebApplication2/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/WebApplication2/FileContentIndex/80a23955-c829-428e-90d8-216249fe6a79.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/WebApplication2/FileContentIndex/read.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/WebApplication2/FileContentIndex/write.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/WebApplication2/v17/.futdcache.v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/WebApplication2/v17/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/ClassDiagram.cd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/ClassDiagram1.cd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/ClassDiagram2.cd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/ClassDiagram3.cd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication2/wwwroot/js/select2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication2.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication2.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Controllers/AccountController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication2/Controllers/ItemsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Controllers/ItemsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication2/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Controllers/ProductsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication2/Data/SeedData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Data/SeedData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication2/Models/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Models/Entities/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Models/ViewModels/AccountViewModel/RegisterViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Models/ViewModels/AccountViewModel/RegisterViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication2/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Views/Account/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Views/Account/Register.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Views/Items/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Views/Items/Delete.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication2/Views/Items/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Views/Items/Edit.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication2/Views/Items/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Views/Items/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication2/Views/Products/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Views/Products/Edit.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication2/Views/Products/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Views/Products/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication2/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication2/Views/Shared/_LoginPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Views/Shared/_LoginPartial.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication2/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Views/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/WebApplication2.csproj.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/WebApplication2.csproj.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +77,8 @@
       <workItem from="1641375880288" duration="150000" />
       <workItem from="1642008914807" duration="192000" />
       <workItem from="1642009128899" duration="151000" />
+      <workItem from="1642715018033" duration="38000" />
+      <workItem from="1643850094350" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1641375911517</created>

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Final.Models.ViewModels.ItemViewModels;
+namespace WebApplication2.Models.ViewModels.ItemViewModels;
 
 public class CreateItemViewModel
 {

@@ -1,4 +1,4 @@
-﻿namespace Final.Models.Interfaces;
+﻿namespace WebApplication2.Models.Interfaces;
 
 public interface IWithId
 {

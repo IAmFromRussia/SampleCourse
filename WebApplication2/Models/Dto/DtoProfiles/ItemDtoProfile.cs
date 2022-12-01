@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using WebApplication2.Models.Entities;
 
-namespace Final.Models.Dto.DtoProfiles;
+namespace WebApplication2.Models.Dto.DtoProfiles;
 
 public class ItemDtoProfile : Profile
 {

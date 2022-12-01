@@ -1,5 +1,4 @@
-﻿using Final.Data;
-using Final.Models;
+﻿using Final.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using WebApplication2.Models.Entities;

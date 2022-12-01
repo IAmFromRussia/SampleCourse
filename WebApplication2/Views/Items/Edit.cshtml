@@ -1,5 +1,5 @@
 ﻿@using WebApplication2.Models.Entities
-@model Final.Models.ItemViewModels.EditItemViewModel
+@model WebApplication2.Models.ViewModels.ItemViewModels.EditItemViewModel
 @{
 	ViewData["Title"] = "Edit";
 }
@@ -37,9 +37,9 @@
 				</div>
 			</div>
 			<div class="form-group">
-				<label asp-for="WarehouseStatus" class="control-label">Select Warehouse Status</label>
+				<label asp-for="WarehouseStatus" class="control-label">Select Warehouse Status:</label>
 				<div class="col-md-10">
-					<select asp-for="WarehouseStatus" asp-items="Html.GetEnumSelectList<WarehouseStatus>()">
+					<select class="form-control" asp-for="WarehouseStatus" asp-items="Html.GetEnumSelectList<WarehouseStatus>()">
 						<option selected="selected" value="@Model.WarehouseStatus">@Model.WarehouseStatus</option>
 					</select>
 					<span asp-validation-for="WarehouseStatus" class="text-danger"></span>

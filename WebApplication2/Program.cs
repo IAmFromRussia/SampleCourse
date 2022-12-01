@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Final.Data;
 using WebApplication2.Data;
 using WebApplication2.Models.Entities;
 using WebApplication2.Models.Services;
@@ -17,7 +16,9 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddIdentity<User, Role>(options =>
 	{
 		options.SignIn.RequireConfirmedAccount = false;
-		options.Password.RequireNonAlphanumeric = false;
+		options. Password.RequireNonAlphanumeric = false;
+		options.Password.RequireLowercase = false;
+		options.Password.RequireUppercase = false;
 	})
 	.AddEntityFrameworkStores<ApplicationDbContext>()
 	.AddTokenProvider<DataProtectorTokenProvider<User>>(TokenOptions.DefaultProvider);
@@ -57,6 +58,12 @@ else
 	// The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
 	app.UseHsts();
 }
+
+// app.UseEndpoints(endpoints =>
+// 	{
+// 		endpoints.MapControllers();
+// 		endpoints.MapRazorPages();
+// 	});
 
 app.UseHttpLogging();
 app.UseHttpsRedirection();

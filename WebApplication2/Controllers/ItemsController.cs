@@ -1,12 +1,10 @@
 ﻿using AutoMapper;
-using Final.Controllers;
-using Final.Models.Dto;
-using Final.Models.ItemViewModels;
-using Final.Models.ViewModels.ItemViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using WebApplication2.Models.Dto;
 using WebApplication2.Models.Entities;
 using WebApplication2.Models.Services;
+using WebApplication2.Models.ViewModels.ItemViewModels;
 
 namespace WebApplication2.Controllers;
 
@@ -95,7 +93,7 @@ public class ItemsController : Controller
 			
 
 	[HttpPost]
-	[Authorize(Roles = Roles.Admin + "," + Roles.AcceptanceEngineer + "," + Roles.AccountantEngineer)]
+	[Authorize(Roles = Roles.Admin + "," + Roles.AcceptanceEngineer + "," + Roles.AccountantEngineer + "," + Roles.Worker)]
 	[ValidateAntiForgeryToken]
 	public async Task<IActionResult> Edit(int id, EditItemViewModel editViewModel)
 	{

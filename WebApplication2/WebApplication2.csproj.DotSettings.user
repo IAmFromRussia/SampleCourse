@@ -1,3 +1,13 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/IgnoredPaths/=WWWROOT_005CJS_005CSELECT2_002EJS/@EntryIndexedValue">wwwroot\js\select2.js</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/IgnoredPaths/=WWWROOT_005CSCRIPTS_005CCHOSEN_002EJQUERY_002EMIN_002EJS/@EntryIndexedValue">wwwroot\Scripts\chosen.jquery.min.js</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/MappedPaths/=WWWROOT_005CCONTENT_005CCHOSEN_002ECSS/@EntryIndexedValue"></s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/MappedPaths/=WWWROOT_005CLIB_005CSELECT2_005CCSS_005CSELECT2_002EMIN_002ECSS/@EntryIndexedValue"></s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/MappedPaths/=WWWROOT_005CLIB_005CSELECT2_005CJS_005CSELECT2_002EFULL_002EMIN_002EJS/@EntryIndexedValue"></s:String>
 	<s:String x:Key="/Default/CodeInspection/WebPathMapping/MappedPaths/=_002E_002E_005CWWWROOT_005CLIB_005CBOOTSTRAP_005CDIST_005CJS_005CBOOTSTRAP_002EBUNDLE_002EMIN_002EJS/@EntryIndexedValue"></s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CCONTENT_005CCHOSEN_002ECSS/@EntryIndexedValue">wwwroot\Content\chosen.css</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CJS_005CSELECT2_002EJS/@EntryIndexedValue">wwwroot\js\select2.js</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CLIB_005CSELECT2_005CCSS_005CSELECT2_002EMIN_002ECSS/@EntryIndexedValue">wwwroot\lib\select2\css\select2.min.css</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CLIB_005CSELECT2_005CJS_005CSELECT2_002EFULL_002EMIN_002EJS/@EntryIndexedValue">wwwroot\lib\select2\js\select2.full.min.js</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=WWWROOT_005CSCRIPTS_005CCHOSEN_002EJQUERY_002EMIN_002EJS/@EntryIndexedValue">wwwroot\Scripts\chosen.jquery.min.js</s:String>
 	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=_002E_002E_005CWWWROOT_005CLIB_005CBOOTSTRAP_005CDIST_005CJS_005CBOOTSTRAP_002EBUNDLE_002EMIN_002EJS/@EntryIndexedValue">..\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js</s:String></wpf:ResourceDictionary>

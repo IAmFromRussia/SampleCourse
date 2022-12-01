@@ -1,7 +1,6 @@
-﻿using Final.Models.Dto;
-using WebApplication2.Models.Entities;
+﻿using WebApplication2.Models.Entities;
 
-namespace Final.Models.ItemProductViewModel;
+namespace WebApplication2.Models.ViewModels.ItemProductViewModel;
 
 public class CreateItemProductViewModel
 {

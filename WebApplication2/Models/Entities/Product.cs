@@ -1,5 +1,5 @@
 ﻿using Final.Models;
-using Final.Models.Interfaces;
+using WebApplication2.Models.Interfaces;
 
 namespace WebApplication2.Models.Entities;
 

@@ -1,5 +1,5 @@
 ﻿@using WebApplication2.Models.Entities
-@model Final.Models.ViewModels.ProductViewModels.EditProductViewModel
+@model WebApplication2.Models.ViewModels.ProductViewModels.EditProductViewModel
 @{
 	ViewData["Title"] = "Edit";
 }
@@ -25,7 +25,7 @@
 			<div class="form-group">
 				<label asp-for="AssemblyStatus" class="control-label">Select Assembly Status:</label>
 				<div class="col-md-10">
-					<select asp-for="AssemblyStatus" asp-items="Html.GetEnumSelectList<AssemblyStatus>()">
+					<select class="form-control" asp-for="AssemblyStatus" asp-items="Html.GetEnumSelectList<AssemblyStatus>()">
 						<option selected="selected" value="@Model.AssemblyStatus">@Model.AssemblyStatus</option>
 					</select>
 					<span asp-validation-for="AssemblyStatus" class="text-danger"></span>

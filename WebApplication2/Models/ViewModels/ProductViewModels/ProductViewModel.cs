@@ -1,4 +1,4 @@
-﻿namespace Final.Models.ViewModels.ProductViewModels;
+﻿namespace WebApplication2.Models.ViewModels.ProductViewModels;
 
 public class ProductViewModel : CreateProductViewModel
 {

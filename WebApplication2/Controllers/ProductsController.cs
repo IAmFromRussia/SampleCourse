@@ -1,11 +1,10 @@
 ﻿using AutoMapper;
-using Final.Controllers;
-using Final.Models.Dto;
-using Final.Models.ViewModels.ProductViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using WebApplication2.Models.Dto;
 using WebApplication2.Models.Entities;
 using WebApplication2.Models.Services;
+using WebApplication2.Models.ViewModels.ProductViewModels;
 
 namespace WebApplication2.Controllers;
 
